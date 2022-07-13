@@ -1,0 +1,9 @@
+{
+    "name": "glauco/open_weather_map",
+    "description": "Projeto de API para consulta de clima feitas com vídeo do WDev",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
