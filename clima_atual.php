@@ -6,7 +6,7 @@ require __DIR__ . '/vendor/autoload.php';
 use App\WebService\OpenWeatherMap;
 
 // Instância da nossa API
-$obOpenWeatherMap = new OpenWeatherMap('2a3856348fc5aa9db41dae5a705a5b0f');
+$obOpenWeatherMap = new OpenWeatherMap('');
 
 if (!isset($argv[2]) ?? !isset($_GET['cidade']) ?? !isset($_GET['uf'])) {
     die('Cidade e UF são obrigatórios');
